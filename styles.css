@@ -1,0 +1,132 @@
+
+body {
+  background: #F7F7F7;
+  color: #692F2A;
+  font: 1.8em/1.7 droid-serif,serif;
+  max-width: 34em;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  padding: 0em 3%;
+}
+
+a {
+  text-decoration: none;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  text-shadow: 1px 1px 0 #fff;
+}
+a[href]:link,
+a[href]:visited {
+  color: #4774B2;
+  background: rgba(0, 0, 0, .03);
+}
+a[href]:hover,
+a[href]:focus,
+a[href]:active {
+  color: #4774B2;
+  background: rgba(0,0,0,.06);
+}
+
+h1 {
+  color: #4A77B5;
+  font-family: fertigo-pro,sans-serif;
+  text-align: center;
+}
+
+h2,h3 {
+  color: #B04F46;
+  font-family: fertigo-pro,sans-serif;
+  text-align: center;
+}
+h2,h3 {
+  margin-top: 1.8em;
+}
+h2 {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-size: 1.25em;
+  line-height: 1em;
+}
+
+header {  
+  border-bottom: 2px solid #bebdbd;
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+section header {  
+  border-bottom: 2px solid #bebdbd;
+  text-align: center;
+  margin: 0 0 2em;
+}
+
+[role="navigation"] ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+[role="navigation"] li {
+  margin-bottom: 1em;
+  display: inline;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+  font-family: fertigo-pro,'Calibri', 'Helvetica Neue', 'Arial', sans-serif;
+}
+[role="navigation"] li a:link,
+[role="navigation"] li a:visited {
+  color: #a42b22;
+}
+
+p, ul {
+  margin: 1.5em .5em 0;
+}
+
+
+/*img {
+  border: 2px solid #a42b22;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+.slideshow { 
+	height: 450px; 
+	width: 400px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.slideshow img { 
+	padding: 15px; 
+	border: 1px solid #ccc; 
+	background-color: #eee; 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+
+@media screen and (min-width: 1000px){
+body {
+    line-height: 2.0;
+    font-size: 1.2em;
+    padding: 0 3%;
+  }
+  h1,h2,h3 {
+    margin-top: 1em;
+  }
+  
+  [role="navigation"] li {
+	  margin-right: 0.5em;
+	  margin-left: 0.5em;
+  }
+
+}
